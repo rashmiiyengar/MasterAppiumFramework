@@ -21,7 +21,5 @@ public class CreateDriverSession {
         URL url = new URL("http://0.0.0.0:4723");
 
         AppiumDriver driver = new AndroidDriver(url,uiAutomator2Options);
-
-
     }
 }
