@@ -5,18 +5,22 @@ import io.appium.java_client.android.options.UiAutomator2Options;
 import java.io.File;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.time.Duration;
 
 public class CreateDriverSession {
 
+    //android
     public static void main(String[] args) throws MalformedURLException {
 
         String appUrl = System.getProperty("user.dir") + File.separator +"src" +File.separator+ "test" +File.separator+ "java"
         +File.separator+ "resources" +File.separator+ "ApiDemos-debug.apk";
 
         UiAutomator2Options uiAutomator2Options = new UiAutomator2Options().
-                setDeviceName("pixel_8").setAutomationName("UiAutomator2").
-                setAppPackage("io.appium.android.apis").
-                setAppActivity("io.appium.android.apis.media.MediaPlayerDemo");
+                setDeviceName("pixel_8").setAvd("Pixel_8").
+                setAvdLaunchTimeout(Duration.ofSeconds(180)).
+                setAutomationName("UiAutomator2").setApp(appUrl);
+                //setAppPackage("io.appium.android.apis").
+                //setAppActivity("io.appium.android.apis.media.MediaPlayerDemo");
 
         URL url = new URL("http://0.0.0.0:4723");
 
