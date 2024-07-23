@@ -9,7 +9,7 @@ import java.time.Duration;
 
 public class CreateDriverSession {
 
-    //android
+    //Android setup
     public static void main(String[] args) throws MalformedURLException {
 
         String appUrl = System.getProperty("user.dir") + File.separator +"src" +File.separator+ "test" +File.separator+ "java"
