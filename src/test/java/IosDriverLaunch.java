@@ -11,7 +11,6 @@ public class IosDriverLaunch {
 
     //com.example.apple-samplecode.UICatalog -buildid
 
-    ///Users/rashmisoundar/Library/Developer/Xcode/DerivedData/
     // Users/rashmisoundar/Library/Developer/Xcode/DerivedData/UIKitCatalog-bxkqfsgsxwufspdglqwmlpfkekxx/Build/Products/Debug-iphonesimulator/UIKitCatalog.app
 
     // Path to the .app file
@@ -27,7 +26,7 @@ public class IosDriverLaunch {
             setUdid("60E3DF6B-4EE5-4B32-9AB8-B6E6BC8D9620").setApp(appPath);
 
 
-           // setBundleId("com.example.apple-samplecode.UICatalog");
+    // setBundleId("com.example.apple-samplecode.UICatalog");
 
 
     // Define the Appium server URL
