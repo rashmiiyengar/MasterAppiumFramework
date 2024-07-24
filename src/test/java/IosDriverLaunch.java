@@ -6,10 +6,11 @@ import io.appium.java_client.ios.options.XCUITestOptions;
 import java.io.File;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.time.Duration;
 
 public class IosDriverLaunch {
 
-    //com.example.apple-samplecode.UICatalog -buildid
+    //com.example.apple-samplecode.UICatalog - buildid
 
     // Users/rashmisoundar/Library/Developer/Xcode/DerivedData/UIKitCatalog-bxkqfsgsxwufspdglqwmlpfkekxx/Build/Products/Debug-iphonesimulator/UIKitCatalog.app
 
@@ -22,7 +23,7 @@ public class IosDriverLaunch {
 
     XCUITestOptions xcuiTestOptions = new XCUITestOptions().
             setDeviceName("iPhone 15 Pro Max").setPlatformName("iOS").
-            setAutomationName("XCUITest").
+            setAutomationName("XCUITest").setSimulatorStartupTimeout(Duration.ofSeconds(180)).
             setUdid("60E3DF6B-4EE5-4B32-9AB8-B6E6BC8D9620").setApp(appPath);
 
 

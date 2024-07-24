@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="127ca790-080c-474e-8e86-42956f661751" name="Changes" comment="bundle id update" />
+    <list default="true" id="127ca790-080c-474e-8e86-42956f661751" name="Changes" comment="bundle id update">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CreateDriverSession.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CreateDriverSession.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,7 +53,7 @@
       <recent name="$PROJECT_DIR$/src/test/java/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CreateDriverSession">
+  <component name="RunManager" selected="Application.IosDriverLaunch">
     <configuration name="CreateDriverSession" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CreateDriverSession" />
       <module name="MasterAppiumFramework" />
@@ -67,8 +70,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CreateDriverSession" />
         <item itemvalue="Application.IosDriverLaunch" />
+        <item itemvalue="Application.CreateDriverSession" />
       </list>
     </recent_temporary>
   </component>

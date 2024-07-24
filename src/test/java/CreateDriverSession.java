@@ -1,7 +1,6 @@
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.options.UiAutomator2Options;
-
 import java.io.File;
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -19,12 +18,15 @@ public class CreateDriverSession {
                 setDeviceName("pixel_8").setAvd("Pixel_8").
                 setAvdLaunchTimeout(Duration.ofSeconds(180)).
                 setAutomationName("UiAutomator2").setApp(appUrl);
-                //setAppPackage("io.appium.android.apis").
-                //setAppActivity("io.appium.android.apis.media.MediaPlayerDemo");
+
+        //setAppPackage("io.appium.android.apis").
+        //setAppActivity("io.appium.android.apis.media.MediaPlayerDemo");
 
         URL url = new URL("http://0.0.0.0:4723");
-
         AppiumDriver driver = new AndroidDriver(url,uiAutomator2Options);
+
+
+
 
     }
 }
