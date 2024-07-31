@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="127ca790-080c-474e-8e86-42956f661751" name="Changes" comment="bundle id update">
+    <list default="true" id="127ca790-080c-474e-8e86-42956f661751" name="Changes" comment="Implemented driver for ios and android">
       <change afterPath="$PROJECT_DIR$/src/test/java/AndroidFindElements.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/AndroidUiAutomator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -136,13 +136,22 @@
       <option name="project" value="LOCAL" />
       <updated>1721774991986</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Implemented driver for ios and android">
+      <option name="closed" value="true" />
+      <created>1722468037206</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1722468037207</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="avd launch android, added ios app launch with applurl" />
     <MESSAGE value="bundle id update" />
-    <option name="LAST_COMMIT_MESSAGE" value="bundle id update" />
+    <MESSAGE value="Implemented driver for ios and android" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented driver for ios and android" />
   </component>
 </project>
