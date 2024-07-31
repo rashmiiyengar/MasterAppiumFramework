@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="127ca790-080c-474e-8e86-42956f661751" name="Changes" comment="bundle id update">
+      <change afterPath="$PROJECT_DIR$/src/test/java/AndroidFindElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/AndroidUiAutomator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/CreateDriverSession.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CreateDriverSession.java" afterDir="false" />
     </list>
@@ -37,23 +39,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.CreateDriverSession.executor&quot;: &quot;Run&quot;,
-    &quot;Application.IosDriverLaunch.executor&quot;: &quot;Run&quot;,
-    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;local__dev&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AndroidFindElements.executor": "Run",
+    "Application.AndroidUiAutomator.executor": "Run",
+    "Application.CreateDriverSession.executor": "Run",
+    "Application.IosDriverLaunch.executor": "Run",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "local__dev",
+    "kotlin-language-version-configured": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test/java/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.IosDriverLaunch">
+  <component name="RunManager" selected="Application.AndroidUiAutomator">
+    <configuration name="AndroidFindElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AndroidFindElements" />
+      <module name="MasterAppiumFramework" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AndroidUiAutomator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AndroidUiAutomator" />
+      <module name="MasterAppiumFramework" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CreateDriverSession" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CreateDriverSession" />
       <module name="MasterAppiumFramework" />
@@ -70,8 +88,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.IosDriverLaunch" />
+        <item itemvalue="Application.AndroidUiAutomator" />
+        <item itemvalue="Application.AndroidFindElements" />
         <item itemvalue="Application.CreateDriverSession" />
+        <item itemvalue="Application.IosDriverLaunch" />
       </list>
     </recent_temporary>
   </component>
