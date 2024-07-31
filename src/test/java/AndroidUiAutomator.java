@@ -17,7 +17,7 @@ public class AndroidUiAutomator {
         System.out.println(webElement.getText());
 
         //Using By class
-        //By myElement1= AppiumBy.androidUIAutomator("");
+        By myElement1= AppiumBy.androidUIAutomator("");
 
 
     }
