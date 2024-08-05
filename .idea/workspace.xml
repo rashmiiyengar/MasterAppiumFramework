@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="127ca790-080c-474e-8e86-42956f661751" name="Changes" comment="Implemented UiSelector locators">
-      <change afterPath="$PROJECT_DIR$/src/test/java/iOSFindElements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AndroidFindElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AndroidFindElements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CreateDriverSession.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CreateDriverSession.java" afterDir="false" />
-    </list>
+    <list default="true" id="127ca790-080c-474e-8e86-42956f661751" name="Changes" comment="Implemented iOS locator Stratergies" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -169,7 +164,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722649340046</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Implemented iOS locator Stratergies">
+      <option name="closed" value="true" />
+      <created>1722889984934</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1722889984935</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -178,6 +181,7 @@
     <MESSAGE value="bundle id update" />
     <MESSAGE value="Implemented driver for ios and android" />
     <MESSAGE value="Implemented UiSelector locators" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented UiSelector locators" />
+    <MESSAGE value="Implemented iOS locator Stratergies" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented iOS locator Stratergies" />
   </component>
 </project>
