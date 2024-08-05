@@ -11,8 +11,6 @@ import java.time.Duration;
 
 public class CreateDriverSession {
 
-
-
     public static  AppiumDriver initializeDriver(String platformName) throws Exception {
 
 
