@@ -5,8 +5,6 @@ import org.openqa.selenium.WebElement;
 
 public class AndroidFindElements {
 
-
-
     public static void main(String[] args) throws Exception {
 
         AppiumDriver driver = CreateDriverSession.initializeDriver("Android");
