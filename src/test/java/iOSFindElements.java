@@ -26,5 +26,9 @@ public class iOSFindElements {
 
         myEle= driver.findElement(AppiumBy.xpath("//XCUIElementTypeStaticText[@name=\"Activity Indicators\"]"));
         System.out.println("element -> " +myEle.getText());
+
+        //Locator using predicate string
+
+
     }
 }
