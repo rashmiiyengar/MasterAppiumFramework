@@ -5,7 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="127ca790-080c-474e-8e86-42956f661751" name="Changes" comment="Implemented iOS locator Stratergies">
+      <change afterPath="$PROJECT_DIR$/src/test/java/ElementBasicActions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/FetchElementAttributes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/IOSPredicateString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/resources/IOSPredicateString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AndroidFindElements.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AndroidUiAutomator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AndroidUiAutomator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/iOSFindElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/iOSFindElements.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,6 +48,9 @@
     "Application.AndroidFindElements.executor": "Run",
     "Application.AndroidUiAutomator.executor": "Run",
     "Application.CreateDriverSession.executor": "Run",
+    "Application.ElementBasicActions.executor": "Run",
+    "Application.FetchElementAttributes.executor": "Run",
+    "Application.IOSPredicateString.executor": "Run",
     "Application.IosDriverLaunch.executor": "Run",
     "Application.iOSFindElements.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
@@ -56,14 +65,7 @@
       <recent name="$PROJECT_DIR$/src/test/java/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.iOSFindElements">
-    <configuration name="AndroidFindElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AndroidFindElements" />
-      <module name="MasterAppiumFramework" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.FetchElementAttributes">
     <configuration name="AndroidUiAutomator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AndroidUiAutomator" />
       <module name="MasterAppiumFramework" />
@@ -71,15 +73,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreateDriverSession" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CreateDriverSession" />
+    <configuration name="ElementBasicActions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ElementBasicActions" />
       <module name="MasterAppiumFramework" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IosDriverLaunch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="IosDriverLaunch" />
+    <configuration name="FetchElementAttributes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FetchElementAttributes" />
+      <module name="MasterAppiumFramework" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IOSPredicateString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="IOSPredicateString" />
       <module name="MasterAppiumFramework" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -94,11 +103,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.iOSFindElements" />
-        <item itemvalue="Application.AndroidFindElements" />
+        <item itemvalue="Application.FetchElementAttributes" />
+        <item itemvalue="Application.ElementBasicActions" />
         <item itemvalue="Application.AndroidUiAutomator" />
-        <item itemvalue="Application.CreateDriverSession" />
-        <item itemvalue="Application.IosDriverLaunch" />
+        <item itemvalue="Application.IOSPredicateString" />
+        <item itemvalue="Application.iOSFindElements" />
       </list>
     </recent_temporary>
   </component>
