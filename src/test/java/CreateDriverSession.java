@@ -25,7 +25,10 @@ public class CreateDriverSession {
                 uiAutomator2Options.
                         setDeviceName("pixel_8").
                         setUdid("emulator-5554").
-                        setAutomationName("UiAutomator2").setAppPackage("io.appium.android.apis").
+                        setAutomationName("UiAutomator2").
+                        //setAppPackage("com.google.android.apps.maps").
+                        //setAppActivity("com.google.android.maps.MapsActivity");
+                        setAppPackage("io.appium.android.apis").
                         setAppActivity("io.appium.android.apis.ApiDemos");
 
                 //setAvd("Pixel_8").
