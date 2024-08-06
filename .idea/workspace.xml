@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="127ca790-080c-474e-8e86-42956f661751" name="Changes" comment="Implemented iOS locator Stratergies">
-      <change afterPath="$PROJECT_DIR$/src/test/java/ElementBasicActions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/FetchElementAttributes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/IOSPredicateString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/resources/IOSPredicateString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AndroidFindElements.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AndroidUiAutomator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AndroidUiAutomator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/iOSFindElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/iOSFindElements.java" afterDir="false" />
-    </list>
+    <list default="true" id="127ca790-080c-474e-8e86-42956f661751" name="Changes" comment="Implemented iOS locator Stratergies" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
