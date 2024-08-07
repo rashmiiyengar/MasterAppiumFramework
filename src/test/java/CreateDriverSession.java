@@ -51,7 +51,8 @@ public class CreateDriverSession {
                         setUdid("7ADB5763-D3C9-40C0-BC10-54BAC61E7A64").
                         setAutomationName("XCUITest").
                         setSimulatorStartupTimeout(Duration.ofSeconds(180)).
-                        setBundleId("com.example.apple-samplecode.UICatalog");
+                        //setBundleId("com.example.apple-samplecode.UICatalog");
+                        setBundleId("com.apple.Maps");
                 //setApp(appPath);
                 return  new IOSDriver(url,xcuiTestOptions);
 

@@ -31,12 +31,25 @@ public class IOSGestures {
         driver.executeScript("mobile: scroll", params);
 
     }
+
+    public static void pinchGesture(AppiumDriver driver) throws InterruptedException {
+
+        Thread.sleep(1000);
+        driver.findElement(AppiumBy.iOSNsPredicateString("name == \"Not Now\" AND label == \"Not Now\" AND value == \"Not Now\"")).click();
+        Thread.sleep(3000);
+        Map<String, Object> params = new HashMap<>();
+        params.put("scale", 3);
+        params.put("velocity", 2.5);
+
+        driver.executeScript("mobile: pinch", params);
+
+    }
     public static void main(String[] args) throws Exception {
 
         AppiumDriver driver = CreateDriverSession.initializeDriver("iOS");
         //swipeGesture(driver);
 
-        scrollGesture(driver);
-
+        //scrollGesture(driver);
+        pinchGesture(driver);
     }
 }
