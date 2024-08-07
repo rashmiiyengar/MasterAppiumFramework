@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="127ca790-080c-474e-8e86-42956f661751" name="Changes" comment="Implemented iOS locator Stratergies">
+      <change afterPath="$PROJECT_DIR$/src/test/java/IOSGestures.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/AndroidGestures.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AndroidGestures.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CreateDriverSession.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CreateDriverSession.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +47,7 @@
     "Application.CreateDriverSession.executor": "Run",
     "Application.ElementBasicActions.executor": "Run",
     "Application.FetchElementAttributes.executor": "Run",
+    "Application.IOSGestures.executor": "Run",
     "Application.IOSPredicateString.executor": "Run",
     "Application.IosDriverLaunch.executor": "Run",
     "Application.Waits.executor": "Run",
@@ -61,16 +64,9 @@
       <recent name="$PROJECT_DIR$/src/test/java/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AndroidGestures">
+  <component name="RunManager" selected="Application.IOSGestures">
     <configuration name="AndroidGestures" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AndroidGestures" />
-      <module name="MasterAppiumFramework" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AndroidUiAutomator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AndroidUiAutomator" />
       <module name="MasterAppiumFramework" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -90,6 +86,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="IOSGestures" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="IOSGestures" />
+      <module name="MasterAppiumFramework" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Waits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Waits" />
       <module name="MasterAppiumFramework" />
@@ -99,11 +102,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IOSGestures" />
         <item itemvalue="Application.AndroidGestures" />
         <item itemvalue="Application.Waits" />
         <item itemvalue="Application.FetchElementAttributes" />
         <item itemvalue="Application.ElementBasicActions" />
-        <item itemvalue="Application.AndroidUiAutomator" />
       </list>
     </recent_temporary>
   </component>
