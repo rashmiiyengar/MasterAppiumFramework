@@ -78,6 +78,22 @@ public class AndroidGestures {
 
     }
 
+    public static void swipe(AppiumDriver driver) {
+
+        driver.findElement(AppiumBy.accessibilityId("Views")).click();
+        driver.findElement(AppiumBy.accessibilityId("Gallery")).click();
+        driver.findElement(AppiumBy.accessibilityId("1. Photos")).click();
+
+        WebElement element =driver.findElement(AppiumBy.xpath("//*[@resource-id=\"io.appium.android.apis:id/gallery\"]/android.widget.ImageView[1]\n"));
+
+
+        driver.executeScript("mobile: swipeGesture", ImmutableMap.of(
+             //   "left", 100, "top", 100, "width", 200, "height", 200,
+                "elementId",((RemoteWebElement) element).getId(),
+                "direction", "left",
+                "percent", 0.75
+        ));
+    }
 
 
     public static void main(String[] args) throws Exception {
@@ -86,7 +102,8 @@ public class AndroidGestures {
 
         //longClickGesture(driver);
         //clickGesture(driver);
-        dragGesture(driver);
+        //dragGesture(driver);
         //pinchOpenGesture(driver);
+        swipe(driver);
     }
 }
