@@ -46,9 +46,9 @@ public class CreateDriverSession {
                         "UIKitCatalog-bxkqfsgsxwufspdglqwmlpfkekxx" + File.separator + "Build" + File.separator + "Products" +
                         File.separator + "Debug-iphonesimulator" + File.separator + "UIKitCatalog.app";
                 XCUITestOptions xcuiTestOptions = new XCUITestOptions().
-                        setDeviceName("iPhone SE (3rd generation)").
+                        setDeviceName("iPhone 15 Pro Max").
                         setPlatformName("iOS").
-                        setUdid("7ADB5763-D3C9-40C0-BC10-54BAC61E7A64").
+                        setUdid("60E3DF6B-4EE5-4B32-9AB8-B6E6BC8D9620").
                         setAutomationName("XCUITest").
                         setSimulatorStartupTimeout(Duration.ofSeconds(180)).
                         setBundleId("com.example.apple-samplecode.UICatalog");

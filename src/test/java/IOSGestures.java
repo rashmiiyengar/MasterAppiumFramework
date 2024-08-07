@@ -68,6 +68,59 @@ public class IOSGestures {
 
     }
 
+    public static void tapGesture(AppiumDriver driver){
+
+      WebElement element= driver.findElement(AppiumBy.accessibilityId("Steppers"));
+
+        Map<String, Object> params = new HashMap<>();
+        params.put("elementId", ((RemoteWebElement) element).getId());
+        params.put("x",0);
+        params.put("y",0);
+        driver.executeScript("mobile: tap", params);
+
+    }
+
+    public static void pickerWheel(AppiumDriver driver){
+
+        driver.findElement(AppiumBy.accessibilityId("Picker View")).click();
+
+        boolean flag= false;
+        while (!flag){
+            WebElement redPredicateWheel  = driver.findElement(AppiumBy.
+                    iOSNsPredicateString("name == \"Red color component value\""));
+
+            Map<String, Object> params = new HashMap<>();
+            params.put("order", "next");
+            params.put("offset", 0.15);
+            params.put("element", ((RemoteWebElement) redPredicateWheel).getId());
+            driver.executeScript("mobile: selectPickerWheelValue", params);
+
+            //if you want specific value use a while loop with intented value to be selected
+            if(redPredicateWheel.getText().equals("90")){
+                flag= true;
+            }
+        }
+
+        flag= false;
+        while (!flag){
+            WebElement redPredicateWheel  = driver.findElement(AppiumBy.
+                    iOSNsPredicateString("name == \"Green color component value\""));
+
+            Map<String, Object> params = new HashMap<>();
+            params.put("order", "previous");
+            params.put("offset", 0.15);
+            params.put("element", ((RemoteWebElement) redPredicateWheel).getId());
+            driver.executeScript("mobile: selectPickerWheelValue", params);
+
+            //if you want specific value use a while loop with intented value to be selected
+            if(redPredicateWheel.getText().equals("190")){
+                flag= true;
+            }
+        }
+
+
+    }
+
 
     public static void main(String[] args) throws Exception {
 
@@ -77,6 +130,9 @@ public class IOSGestures {
         //scrollGesture(driver);
         //pinchGesture(driver);
 
-        touchAndHold(driver);
+        //touchAndHold(driver);
+        //tapGesture(driver);
+
+        pickerWheel(driver);
     }
 }
