@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="127ca790-080c-474e-8e86-42956f661751" name="Changes" comment="Implemented iOS locator Stratergies">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CreateDriverSession.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CreateDriverSession.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/IOSGestures.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/IOSGestures.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
