@@ -40,16 +40,43 @@ public class IOSGestures {
         Map<String, Object> params = new HashMap<>();
         params.put("scale", 3);
         params.put("velocity", 2.5);
-
         driver.executeScript("mobile: pinch", params);
 
+
+        WebElement element = driver.findElement(AppiumBy.iOSNsPredicateString("name == \"ControlContainerViewController.OverlayView\""));
+
+
+        Map<String, Object> params1 = new HashMap<>();
+        params1.put("scale", 0.1);
+        params1.put("velocity", -2.2);
+        params1.put("elementId", ((RemoteWebElement) element).getId());
+        driver.executeScript("mobile: pinch", params1);
     }
+
+
+    public static void touchAndHold(AppiumDriver driver){
+
+         driver.findElement(AppiumBy.accessibilityId("Steppers")).click();
+
+        Map<String, Object> params = new HashMap<>();
+
+        WebElement element = driver.findElement(AppiumBy.iOSClassChain
+                ("**/XCUIElementTypeButton[`name == \"Increment\"`][1]"));
+        params.put("elementId", ((RemoteWebElement) element).getId());
+        params.put("duration",5);
+        driver.executeScript("mobile: touchAndHold", params);
+
+    }
+
+
     public static void main(String[] args) throws Exception {
 
         AppiumDriver driver = CreateDriverSession.initializeDriver("iOS");
         //swipeGesture(driver);
 
         //scrollGesture(driver);
-        pinchGesture(driver);
+        //pinchGesture(driver);
+
+        touchAndHold(driver);
     }
 }
