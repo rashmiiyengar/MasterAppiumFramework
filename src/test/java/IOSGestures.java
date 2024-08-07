@@ -122,6 +122,16 @@ public class IOSGestures {
     }
 
 
+
+    public static void slidersGestures(AppiumDriver driver){
+
+        driver.findElement(AppiumBy.accessibilityId("Sliders")).click();
+
+        WebElement element= driver.findElement(AppiumBy.iOSNsPredicateString("value == \"42%\""));
+        element.sendKeys("0");
+
+    }
+
     public static void main(String[] args) throws Exception {
 
         AppiumDriver driver = CreateDriverSession.initializeDriver("iOS");
@@ -133,6 +143,8 @@ public class IOSGestures {
         //touchAndHold(driver);
         //tapGesture(driver);
 
-        pickerWheel(driver);
+        //pickerWheel(driver);
+
+        slidersGestures(driver);
     }
 }
