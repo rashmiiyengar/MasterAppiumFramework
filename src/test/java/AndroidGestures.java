@@ -95,6 +95,19 @@ public class AndroidGestures {
         ));
     }
 
+    public static void scroll(AppiumDriver driver) {
+
+        driver.findElement(AppiumBy.accessibilityId("Views")).click();
+        WebElement element = driver.findElement(AppiumBy.id("android:id/list"));
+
+        boolean canScrollMore = (Boolean) driver.executeScript("mobile: scrollGesture", ImmutableMap.of(
+               // "left", 100, "top", 100, "width", 200, "height", 200,
+                "elementId",((RemoteWebElement) element).getId(),
+                "direction", "down",
+                "percent", 1.0
+        ));
+    }
+
 
     public static void main(String[] args) throws Exception {
 
@@ -104,6 +117,7 @@ public class AndroidGestures {
         //clickGesture(driver);
         //dragGesture(driver);
         //pinchOpenGesture(driver);
-        swipe(driver);
+        //swipe(driver);
+        scroll(driver);
     }
 }
