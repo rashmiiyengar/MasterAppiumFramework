@@ -1,4 +1,7 @@
+package com.rs.basics;
+
 import com.google.common.collect.ImmutableMap;
+import com.rs.basics.CreateDriverSession;
 import io.appium.java_client.AppiumBy;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;

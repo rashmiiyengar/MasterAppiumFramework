@@ -5,9 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="127ca790-080c-474e-8e86-42956f661751" name="Changes" comment="Implemented iOS locator Stratergies">
-      <change afterPath="$PROJECT_DIR$/src/test/java/IosInteractingWithApps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/IosInteractingWithKeys.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AndInteractWithKeyboard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AndInteractsWithApps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AndLockAndUnlock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AndroidGestures.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AndroidUiAutomator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CreateDriverSession.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ElementBasicActions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FetchElementAttributes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/IOSGestures.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/IOSPredicateString.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/IosDriverLaunch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/IosInteractingWithApps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/IosInteractingWithKeys.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Waits.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/iOSFindElements.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +67,7 @@
     "Application.IosDriverLaunch.executor": "Run",
     "Application.IosInteractingWithKeys.executor": "Run",
     "Application.Waits.executor": "Run",
+    "Application.com.rs.basics.AndInteractWithKeyboard.executor": "Run",
     "Application.iOSFindElements.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -67,30 +81,9 @@
       <recent name="$PROJECT_DIR$/src/test/java/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.IosInteractingWithApps">
+  <component name="RunManager" selected="Application.com.rs.basics.AndLockAndUnlock">
     <configuration name="AndInteractWithKeyboard" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AndInteractWithKeyboard" />
-      <module name="MasterAppiumFramework" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AndInteractsWithApps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AndInteractsWithApps" />
-      <module name="MasterAppiumFramework" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AndLockAndUnlock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AndLockAndUnlock" />
-      <module name="MasterAppiumFramework" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AndroidGestures" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AndroidGestures" />
       <module name="MasterAppiumFramework" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -103,13 +96,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.rs.basics.AndInteractWithKeyboard" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.rs.basics.AndInteractWithKeyboard" />
+      <module name="MasterAppiumFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rs.basics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.rs.basics.AndLockAndUnlock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.rs.basics.AndLockAndUnlock" />
+      <module name="MasterAppiumFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rs.basics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="iOSFindElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.rs.basics.iOSFindElements" />
+      <module name="MasterAppiumFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rs.basics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.rs.basics.AndLockAndUnlock" />
+        <item itemvalue="Application.iOSFindElements" />
+        <item itemvalue="Application.com.rs.basics.AndInteractWithKeyboard" />
         <item itemvalue="Application.IosInteractingWithApps" />
         <item itemvalue="Application.AndInteractWithKeyboard" />
-        <item itemvalue="Application.AndLockAndUnlock" />
-        <item itemvalue="Application.AndInteractsWithApps" />
-        <item itemvalue="Application.AndroidGestures" />
       </list>
     </recent_temporary>
   </component>
