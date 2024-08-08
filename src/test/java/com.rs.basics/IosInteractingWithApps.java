@@ -1,3 +1,6 @@
+package com.rs.basics;
+
+import com.rs.basics.CreateDriverSession;
 import io.appium.java_client.AppiumBy;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.ios.IOSDriver;

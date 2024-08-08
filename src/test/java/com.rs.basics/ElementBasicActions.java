@@ -1,3 +1,5 @@
+package com.rs.basics;
+
 import com.google.common.collect.ImmutableMap;
 import io.appium.java_client.AppiumBy;
 import io.appium.java_client.AppiumDriver;
