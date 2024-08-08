@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="127ca790-080c-474e-8e86-42956f661751" name="Changes" comment="Implemented iOS locator Stratergies" />
+    <list default="true" id="127ca790-080c-474e-8e86-42956f661751" name="Changes" comment="Implemented iOS locator Stratergies">
+      <change afterPath="$PROJECT_DIR$/src/test/java/AndInteractsWithApps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,6 +39,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.AndInteractsWithApps.executor": "Run",
     "Application.AndroidFindElements.executor": "Run",
     "Application.AndroidGestures.executor": "Run",
     "Application.AndroidUiAutomator.executor": "Run",
@@ -59,16 +63,16 @@
       <recent name="$PROJECT_DIR$/src/test/java/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.IOSGestures">
-    <configuration name="AndroidGestures" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AndroidGestures" />
+  <component name="RunManager" selected="Application.AndInteractsWithApps">
+    <configuration name="AndInteractsWithApps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AndInteractsWithApps" />
       <module name="MasterAppiumFramework" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ElementBasicActions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ElementBasicActions" />
+    <configuration name="AndroidGestures" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AndroidGestures" />
       <module name="MasterAppiumFramework" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -97,11 +101,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AndInteractsWithApps" />
         <item itemvalue="Application.IOSGestures" />
         <item itemvalue="Application.AndroidGestures" />
         <item itemvalue="Application.Waits" />
         <item itemvalue="Application.FetchElementAttributes" />
-        <item itemvalue="Application.ElementBasicActions" />
       </list>
     </recent_temporary>
   </component>
