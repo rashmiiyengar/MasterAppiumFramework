@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="127ca790-080c-474e-8e86-42956f661751" name="Changes" comment="Implemented iOS locator Stratergies">
-      <change afterPath="$PROJECT_DIR$/src/test/java/AndInteractsWithApps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/AndInteractWithKeyboard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/AndLockAndUnlock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_7_31_24,_4_20 PM_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_7_31_24__4_20PM__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AndInteractsWithApps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AndInteractsWithApps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CreateDriverSession.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CreateDriverSession.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +44,9 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.AndInteractWithKeyboard.executor": "Run",
     "Application.AndInteractsWithApps.executor": "Run",
+    "Application.AndLockAndUnlock.executor": "Run",
     "Application.AndroidFindElements.executor": "Run",
     "Application.AndroidGestures.executor": "Run",
     "Application.AndroidUiAutomator.executor": "Run",
@@ -63,9 +70,23 @@
       <recent name="$PROJECT_DIR$/src/test/java/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AndInteractsWithApps">
+  <component name="RunManager" selected="Application.AndInteractWithKeyboard">
+    <configuration name="AndInteractWithKeyboard" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AndInteractWithKeyboard" />
+      <module name="MasterAppiumFramework" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AndInteractsWithApps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AndInteractsWithApps" />
+      <module name="MasterAppiumFramework" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AndLockAndUnlock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AndLockAndUnlock" />
       <module name="MasterAppiumFramework" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -78,13 +99,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FetchElementAttributes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FetchElementAttributes" />
-      <module name="MasterAppiumFramework" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="IOSGestures" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="IOSGestures" />
       <module name="MasterAppiumFramework" />
@@ -92,20 +106,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Waits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Waits" />
-      <module name="MasterAppiumFramework" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AndInteractWithKeyboard" />
+        <item itemvalue="Application.AndLockAndUnlock" />
         <item itemvalue="Application.AndInteractsWithApps" />
-        <item itemvalue="Application.IOSGestures" />
         <item itemvalue="Application.AndroidGestures" />
-        <item itemvalue="Application.Waits" />
-        <item itemvalue="Application.FetchElementAttributes" />
+        <item itemvalue="Application.IOSGestures" />
       </list>
     </recent_temporary>
   </component>

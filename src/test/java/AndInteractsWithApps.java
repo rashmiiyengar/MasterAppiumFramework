@@ -14,15 +14,14 @@ public class AndInteractsWithApps {
     public static void main(String[] args) throws Exception {
 
         AppiumDriver driver = CreateDriverSession.initializeDriver("Android");
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-
-
+        Thread.sleep(5000);
         By views = AppiumBy.accessibilityId("Views");
-
         driver.findElement(views).click();
+
         //appPackage should be passed
         Thread.sleep(5000);
-        //((AndroidDriver) driver).terminateApp("io.appium.android.apis");
+        ((AndroidDriver) driver).terminateApp("io.appium.android.apis");
+        Thread.sleep(5000);
 
         String appUrl = System.getProperty("user.dir") + File.separator +"src" +File.separator+ "test" +File.separator+ "java"
                 +File.separator+ "resources" +File.separator+ "ApiDemos-debug.apk";
@@ -32,6 +31,11 @@ public class AndInteractsWithApps {
 
         //((AndroidDriver) driver).isAppInstalled("io.appium.android.apis");
 
-        ((AndroidDriver) driver).runAppInBackground(Duration.ofSeconds(5));
+        //((AndroidDriver) driver).runAppInBackground(Duration.ofSeconds(5));
+
+        //Activate app
+        ((AndroidDriver) driver).activateApp("com.android.settings");
+        Thread.sleep(5000);
+        ((AndroidDriver) driver).activateApp("io.appium.android.apis");
     }
 }
