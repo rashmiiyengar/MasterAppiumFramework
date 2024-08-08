@@ -29,7 +29,9 @@ public class CreateDriverSession {
                         //setAppPackage("com.google.android.apps.maps").
                         //setAppActivity("com.google.android.maps.MapsActivity");
                         setAppPackage("io.appium.android.apis").
-                        setAppActivity("io.appium.android.apis.ApiDemos");
+                        setAppActivity("io.appium.android.apis.ApiDemos").
+                        setUnlockType("pin").
+                        setUnlockKey("1212");
 
                 //setAvd("Pixel_8").
                 //setAvdLaunchTimeout(Duration.ofSeconds(180)).
