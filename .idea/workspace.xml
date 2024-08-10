@@ -5,22 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="127ca790-080c-474e-8e86-42956f661751" name="Changes" comment="Implemented iOS locator Stratergies">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com.rs.basics/WebViewInspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/qa/mobile/MyTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AndInteractWithKeyboard.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AndInteractsWithApps.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AndLockAndUnlock.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AndroidGestures.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AndroidUiAutomator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CreateDriverSession.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ElementBasicActions.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FetchElementAttributes.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/IOSGestures.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/IOSPredicateString.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/IosDriverLaunch.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/IosInteractingWithApps.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/IosInteractingWithKeys.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Waits.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/iOSFindElements.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +55,9 @@
     "Application.IosDriverLaunch.executor": "Run",
     "Application.IosInteractingWithKeys.executor": "Run",
     "Application.Waits.executor": "Run",
+    "Application.WebViewInspect.executor": "Run",
     "Application.com.rs.basics.AndInteractWithKeyboard.executor": "Run",
+    "Application.com.rs.basics.AndLockAndUnlock.executor": "Run",
     "Application.iOSFindElements.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -81,17 +71,23 @@
       <recent name="$PROJECT_DIR$/src/test/java/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.rs.basics.AndLockAndUnlock">
-    <configuration name="AndInteractWithKeyboard" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AndInteractWithKeyboard" />
+  <component name="RunManager" selected="Application.WebViewInspect">
+    <configuration name="IosInteractingWithApps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="IosInteractingWithApps" />
       <module name="MasterAppiumFramework" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IosInteractingWithApps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="IosInteractingWithApps" />
+    <configuration name="WebViewInspect" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.rs.basics.WebViewInspect" />
       <module name="MasterAppiumFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rs.basics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -137,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WebViewInspect" />
         <item itemvalue="Application.com.rs.basics.AndLockAndUnlock" />
         <item itemvalue="Application.iOSFindElements" />
         <item itemvalue="Application.com.rs.basics.AndInteractWithKeyboard" />
         <item itemvalue="Application.IosInteractingWithApps" />
-        <item itemvalue="Application.AndInteractWithKeyboard" />
       </list>
     </recent_temporary>
   </component>
